@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initialscale=1.0">
+    <title>Personal Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/c8389a796e.js" crossorigin="anonymous"></script>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="logo.png" class="logo"> <!-- logo -->
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">ABOUT</a></li>
+                <li><a href="#">SERVICES</a></li>
+                <li><a href="#">PORTFOLIO</a></li>
+                <li><a href="#">CONTACT</a></li>
+            </ul>
+        </nav>
+        <div class="header-text">
+            <p>WEB DEVELOPER</p>
+            <h1>Hi, I'm <span>SOUBHAGYA</span><br>aka <span>SOM</span></br>from India</h1>
+        </div>
+    </div>
+</div>
+<!------about---->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="som_02.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>Hello there, I'm SOUBHAGYA KUMAR PRADHAN, a passionate web developer and a student, currently pursuing B.Tech from C.V. Raman Global University. I beleive Web development is not just about writing code; it's about crafting digital experiences that inspire, inform, and connect people across the world. Currently I have 1 year experience in css html and jave and I have a coding experience in python.</p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">experience</p>
+                    <p class="tab-links" onclick="opentab('education')">education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>UI/UX</span><br>Designing Web/app interfaces</li>
+                        <li><span>Web Development</span><br>web app development</li>
+                        <li><span>App Development</span><br>Buliding android/ios apps</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>2023</span><br>oasis infobyte internship</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2023</span><br>CGU- Studying CSE</li>
+                        <li><span>2022</span><br>bjem - completed 12th</li>
+                        <li><span>2020</span><br>bjem - completed 10th</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------services-->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Web Design</h2>
+                <p>Web design encompasses many different skills and disciplines in the production and maintenance of websites.
+                The different areas of web design include web graphic design; user interface design (UI design); 
+                authoring, including standardised code and proprietary software; user experience design (UX design); and search engine optimization.
+                </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-crop-simple"></i>
+                <h2>UI/UX Design</h2>
+                <p>A UI (User Interface) deals with the application's graphical layout, which includes buttons, screen layout, animations, transitions, micro-interactions, and so on.
+                UX (User Experience) design deals with how users interact with the system. Logical navigation and
+                how smooth and intuitive the experience is all fall under UX design. </p>
+                <a href="#">learn more</a>
+            </div>
+            <div>
+                <i class="fa-brands fa-app-store"></i>
+                <h2>App Design</h2>
+                <P>App design is the process of developing the visual and interactive elements of a mobile application.
+                It involves creating a user interface (UI) that is appealing and easy to use, and a user experience 
+                (UX) that meets or exceeds the user's expectations12. Some app design tips are to make it easy to 
+                navigate, design for simplicity, pick colors and fonts mindfully, think about visual hierarchy  and weight, and be consistent.
+                </P>
+                <a href="#">learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!----------------portfolio-->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="landing page.png" alt=""> <!------img of work-->
+                <div class="layer">
+                    <h3>Landing page</h3>
+                    <p>Landing pages are the most essential pages on your website because they show your brand’s 
+                    value, build trust and convert visitors into leads.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="temperature .png" alt=""> <!------img of work-->
+                <div class="layer">
+                    <h3>Temperature Converter</h3>
+                    <p>Temperature converter is a tool that can perform the conversion by using the formula and entering the original value and unit</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="portfolio.png" alt=""> <!------img of work-->
+                <div class="layer">
+                    <h3>Portfolio</h3>
+                    <p>A portfolio is a collection of financial or non-financial assets owned by one person or entity.</p>
+                    <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">see more</a>
+    </div>
+</div>
+<!----------------contact-->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-solid fa-paper-plane"></i>soubhagyakupradhan007@gmail.com</p>
+                <p><i class="fa-solid fa-square-phone"></i>6371242628</p>
+                <div class="social-icons">
+                    <a href=""><i class="fa-brands fa-instagram"></i></a><!----social media link--> 
+                    <a href=""><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="contact-right">
+                <form>
+                    <input type="text" name="name" placeholder="your name" required>
+                    <input type="email" name="email" placeholder="your email" required>
+                    <textarea name="message" rows="6" placeholder="your message"></textarea>
+                    <button type="submit" class="btn btn2">submit</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>copyright @ som. made with <i class="fa-regular fa-heart"></i></p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+</body>
+</html>
